@@ -8,6 +8,7 @@ namespace VD_delegate1
 {
     class Program
     {
+        //Hàm ủy quyền Delegate
         delegate double processDelegate(double a, double b);
         //Biểu thức Lambda
         static double cong(double a, double b)=> a + b;
