@@ -19,7 +19,7 @@ namespace VD_delegate1
         static double chia(double a, double b) =>a / b;
         static void Main(string[] args)
         {
-            double a = 4;
+            double a = 6;
             double b = 5;
             processDelegate process;
             Console.Write("Nhap phep tinh (+,-,*,/)");
