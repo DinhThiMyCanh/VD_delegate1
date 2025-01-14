@@ -1,21 +1,9 @@
 pipeline {
     agent any
     stages{
-        stage('Git clone'){
+        stage('Clone'){
             steps{
-                git branch: 'master', url: 'https://github.com/DinhThiMyCanh/VD_delegate1.git'
-            }  
-        }
-
-        stage('Check folder'){
-            steps{
-                sh "ls"
-            }  
-        }
-
-        stage('Build'){
-            steps{
-                echo "Build completed"
+                git 'https://github.com/DinhThiMyCanh/VD_delegate1.git'
             }  
         }
 
