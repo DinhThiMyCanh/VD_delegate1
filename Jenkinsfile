@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build'){
             steps{
-                
+                build 'VD_delegate1.sln'
             }
         }
 
