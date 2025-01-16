@@ -20,7 +20,7 @@ namespace VD_delegate1
         static void Main(string[] args)
         {
             double a = 6;
-            double b = 5;
+            double b = 2;
             processDelegate process;
             Console.Write("Nhap phep tinh (+,-,*,/)");
             string pt = Console.ReadLine();
