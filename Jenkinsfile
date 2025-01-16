@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
     stages{
@@ -8,9 +9,10 @@ pipeline {
         }
         stage('Build'){
             steps{
-                build 'VD_delegate1.sln'
+                build 'Projectt_VD_Delegate_Pipeline'
             }
         }
 
     }
 }
+
