@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build'){
             steps{
-                build 'Projectt_VD_Delegate_Pipeline'
+                sh 'VD_delegate1.sln
             }
         }
 
