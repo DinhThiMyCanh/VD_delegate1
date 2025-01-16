@@ -6,6 +6,11 @@ pipeline {
                 git 'https://github.com/DinhThiMyCanh/VD_delegate1.git'
             }  
         }
+        stage('Build'){
+            steps{
+                
+            }
+        }
 
     }
 }
