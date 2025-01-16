@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Build'){
             steps{
-                sh 'VD_delegate1.sln
+                sh 'VD_delegate1.sln'
             }
         }
 
